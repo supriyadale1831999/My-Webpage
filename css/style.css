@@ -1,0 +1,385 @@
+:root{
+    --bs-gray: #e6ecef;
+    --bs-bg-secondary: #424242;
+    --bs-black: #131313;
+    --bs-main: #28c0ee;
+    --bs-dark-main: #0792bd;
+    --bs-mainblack: #000000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+}
+.bg-main{
+    background: var(--bs-main);
+}
+.bg-dark-main{
+    background: var(--bs-dark-main);
+}
+.bg-mainblack{
+    background: var(--bs-mainblack);
+}
+.bg-black{
+    background: var(--bs-black);
+}
+.bg-gray{
+    background: var(--bs-gray);
+}
+.text-gray{
+    color: var(--bs-gray);
+}
+.bg-gray1{
+    background: var(--bs-bg-secondary);
+}
+/* section second header */
+.navbar img{
+    width: 150px!important;
+}
+.frm1{
+    position: relative;
+}
+.frm1 input{
+    width: 450px;
+    border: 1px solid #0077e7!important;
+}
+::placeholder {
+    color: #0077e7;
+    font-size: 16px;
+  }
+.icon-bs-search{
+    position: absolute;
+    top: 6px;
+    left: 15px;
+}
+::placeholder {
+    color: #0077e7;
+    font-size: 16px;
+  }
+  .login:hover{
+    color: #0077e7;
+    background: transparent;
+    border-color: #0077e7;
+  }
+  .certification1 .swiper-slide .card:hover , .master .card:hover {
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.308)!important;
+  }
+
+  .courses .card:hover{
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.308)!important;
+  }
+/*end section second header */
+
+/* hero section */
+
+.hero{
+    background: url(../images/banner_v1.jpg)no-repeat;
+    background-size: cover;
+}
+
+/* end hero section */
+
+
+/* certification section start */
+
+.certification{
+    background-image: linear-gradient(to bottom, rgba(203, 239, 255, 0.356), rgb(255, 255, 255));
+}
+.section-7{
+    background-image: linear-gradient(to top, rgba(203, 239, 255, 0.356), rgb(255, 255, 255));
+}
+.bi-patch-check-fill{
+    font-size: 13px;
+}
+/* .certification1 .swiper-slide{
+    width: 200px!important;
+    margin: 0px 20px;
+} */
+.swiper-button-prev:after ,.swiper-button-next:after{
+    font-size: 25px!important;
+}
+.swiper-pagination2 .swiper-pagination-bullet{
+    height: 7px;
+    width: 10px;
+    border-radius: 10px;
+}
+.swiper-pagination-bullet{
+    height: 7px;
+    width: 60px;
+    border-radius: 10px;
+}
+.certification1 .card{
+    border-radius: 8px;
+    border: 1px solid #e6ecef;
+} 
+.certification1 .card img{
+    border-radius: 8px 8px 10px 10px;
+} 
+.certification1 .card .card-body{
+    width: 300px!important;
+    border-radius: 13px 13px 8px 8px;
+    background-color: #ffffff;
+    margin-top: -24px;
+}
+.fa-star:before {
+    font-size: 10px
+}
+.img-card{
+    width: 80px;
+}
+/* end of certification */
+
+/* master program */
+.master .card{
+    height: 320px;
+    border-radius: 8px;
+}
+
+.card-heading-first{
+    background-image: linear-gradient(to right, rgba(255, 121, 143, 0.884), rgba(228, 37, 78, 0.849));
+    padding: 35px;
+    border-radius: 8px 8px 0px 0px;
+}
+.card-heading-second{
+    background-image: linear-gradient(to right, rgba(121, 224, 255, 0.884), rgba(29, 152, 209, 0.849));
+    padding: 35px;
+    border-radius: 8px 8px 0px 0px;
+}
+.card-heading-third{
+    background-image: linear-gradient(to right, rgba(245, 229, 89, 0.925), rgba(236, 202, 9, 0.932));
+    padding: 35px;
+    border-radius: 8px 8px 0px 0px;
+}
+.master img{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 75px;
+}
+.master .card-body{
+    position: absolute;
+    top:90px;
+}
+.video2{
+    background: url("https://www.simplilearn.com/ice9/assets/home/alumni-video_v1.jpg")no-repeat;
+    background-size: 100%;
+    height: 400px;
+    position: relative;
+}
+.video2 .fa-play{
+    font-size: 20px!important;
+    position: absolute;
+    top: 170px;
+    left: 290px;
+    color: #0077e7!important;
+    padding: 10px 10px 10px 15px;
+}
+/* end master program */
+
+.client img{
+    width: 96px;
+    height: 96px;
+}
+.section-10 img{
+    height: 100px;
+}
+.section-11, .online{
+    background: rgba(226, 244, 255, 0.342); 
+}
+.section-11 .mobss-img{
+    width: 375px;
+}
+.section-11 .qr-code{
+    width: 220px;
+}
+.section-12 .soc-icon{
+    width: 35px!important;
+    text-align: center;
+}
+.hero-1-video{
+    position: relative;
+}
+.hero-1-video .fa-play{
+    font-size: 14px;
+    position: absolute;
+    top: 68px;
+    right: 121px;
+    color: #0077e7!important;
+    padding: 10px 10px 10px 15px;
+}
+.lottie-player{
+    position: absolute;
+    top: 10px!important;
+}
+path[Attributestyle]{
+    fill: #0077e7;
+}
+
+.vl {
+    border-left: 1px solid #969696;
+    height: 50px;
+}
+
+.vl1{
+    border-left: 1px solid #969696;
+    height: 20px;
+}
+
+
+.vl2-red{
+    border-left: 5px solid #fd7878;
+    height: 40px;
+    position: absolute;
+    margin: 20px -12px;
+}
+.vl2-aqua{
+    border-left: 5px solid #60dee2;
+    height: 40px;
+    position: absolute;
+    margin: 20px -12px;
+}
+.vl2-blue{
+    border-left: 5px solid #66b7fa;
+    height: 40px;
+    position: absolute;
+    margin: 20px -12px;
+}
+.vl2-purple{
+    border-left: 5px solid #7c60e2;
+    height: 40px;
+    position: absolute;
+    margin: 20px -12px;
+}
+.vl2-orange{
+    border-left: 5px solid #ffd359;
+    height: 40px;
+    position: absolute;
+    margin: 20px -12px;
+}
+.vl2-pink{
+    border-left: 5px solid #f075db;
+    height: 40px;
+    position: absolute;
+    margin: 20px -12px;
+}
+.online img{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+.map{
+    background: url(../images/map.jpg)no-repeat;
+    background-size: cover;
+
+}
+.courses , .online p , .footer a{
+    font-size: 14px;
+}
+.client .card{
+
+    border-bottom: 8px solid !important;
+    /* border-radius: 20px; */
+    border-image: linear-gradient(to left, rgb(94, 159, 243), rgb(47, 120, 255)) 10 !important;
+}
+.footer2 a{
+    color: var(--bs-secondary)!important;
+    font-size: 16px;
+}
+.lastfooter li{
+    font-size: 12px;
+    line-height: 183%;
+}
+
+/*  */
+/*  */
+@media (min-width: 676px) and (max-width: 768px) {
+    .hero-1-video .fa-play{
+    position: absolute;
+    top: 200px;
+    right: 360px;
+    color: #0077e7!important;
+    padding: 15px 15px 15px 20px;
+}
+.video2{
+    height:233px;
+}
+    .video2 .fa-play{
+        top: 95px;
+        left: 170px;
+    }
+}
+@media (max-width: 576px) and (max-width: 668px){
+    .hero-1-video .fa-play{
+        position: absolute;
+        top: 145px;
+        right: 245px;
+        color: #0077e7!important;
+        padding: 15px 15px 15px 20px;
+    }
+    .video2 .fa-play{
+        top: 132px;
+        left: 224px;
+    }
+    .certification1 .card .card-body{
+        width: 460px!important;
+        border-radius: 13px 13px 8px 8px;
+        background-color: #ffffff;
+        margin-top: -24px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .master .card{
+        height: 370px;
+    }
+    .hero-1-video .fa-play{
+        top: 95px;
+        left: 148px;
+        padding: 10px 21px 8px 14px;
+    }
+    .video2{
+        height:200px;
+    }
+    .video2 .fa-play{
+        font-size: 14px!important;
+        top: 80px;
+        left: 144px;
+    }
+    .certification1 .card .card-body{
+        width: 220px!important;
+        border-radius: 13px 13px 8px 8px;
+        background-color: #ffffff;
+        margin-top: -24px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .hero-1-video .fa-play{
+        position: absolute;
+        top: 123px;
+        right: 215px;
+        color: #0077e7!important;
+        padding: 15px 15px 15px 20px;
+    }
+}
+@media only screen and (min-width: 1349px){
+    .hero-1-video .fa-play{
+        font-size: 20px!important;
+        top: 165px;
+        right: 270px;
+    }
+    /* .certification1 .swiper-slide{
+        width: 320px!important;
+        margin: 0px 20px;
+    } */
+    /* .certification1 .card .card-body{
+        width: 300px!important;
+        border-radius: 13px 13px 8px 8px;
+        background-color: #ffffff;
+        margin-top: -24px;
+    } */
+}
